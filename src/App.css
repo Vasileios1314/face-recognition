@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+.particles{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* allow to use when you use position fixed or absolout,tells you what layer needs to be,below anything else */
+  z-index: -1;
+}
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
